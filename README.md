@@ -2,10 +2,11 @@
 ## IV.B On-demand streaming
 ・１フレームあたりの点群の描画にかかる処理時間を考慮して，再生フレームレートを決め，ダウンロードするフレーム番号をスキップすることで，30fpsと同じ速さで再生させる．
 
-・
+・Considering the rendering processing time per frame, we defined playing frame rate. By using frame-skip, point cloud streaming play at the same speed as capturing 30 fps.  
 
 ・１フレームあたりの点群のダウンロードにかかる処理時間を考慮して，再生終了までバッファが枯渇しないように初期バッファサイズを決定する．
 
+・Initial buffer size = all download frames - download frames during playing
 
 Table1　Setting parameters and demo video links
 
@@ -19,12 +20,15 @@ Table1　Setting parameters and demo video links
 [demo comparison](https://waseda.box.com/s/p6n9tkek7unc1n8oreqxb2fkt35wyekr)
 
 ## IV.C Live streaming　
-※デモ動画撮影用に原稿とは異なるシーケンスの結果を示す（実験結果の傾向は、原稿と同様のものである）
-
 ・１フレームあたりの点群の取得から生成までにかかる処理時間を考慮して，再生フレームレートを決める．(LiDARカメラでの取得フレームレートも同じに設定する)
+
+・Considering the processing time from capturing to creating ply data on the streaming server, we defined playing frame rate.
 
 ・初期バッファサイズは５フレームとし，安定してバッファが枯渇しないようなデータサイズとなるvoxel sizeを選択する．
 
+・Initial buffer size sets 5 frames.
+
+・We set the voxel size not to occur freeze due to the lack of buffer.  
 
 Table2　Setting parameters and demo video links
 
