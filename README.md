@@ -26,7 +26,7 @@ Table2　Setting parameters and demo video links
 
 | setting | voxel size(m) | initial buffer size(frames) | frame rate(fps) | demo video link |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | 0.005 | 5 | 5 | [setting1 demo](https://waseda.box.com/s/zswfm4pbiqxnl69mawh6qdwrnzmxrc6u) |
-| 2 | 0.007 | 5 | 10 | [setting2 demo](https://waseda.box.com/s/cgykdhppa0fxl7wuc9jkatx68q981b6k) |
+| A | 0.005 | 5 | 5 | [setting1 demo](https://waseda.box.com/s/zswfm4pbiqxnl69mawh6qdwrnzmxrc6u) |
+| B | 0.007 | 5 | 10 | [setting2 demo](https://waseda.box.com/s/cgykdhppa0fxl7wuc9jkatx68q981b6k) |
 
 [demo comparison](https://waseda.box.com/s/jc6vvjr4w2vw7tzin1ca0s3h4lc8incy)
