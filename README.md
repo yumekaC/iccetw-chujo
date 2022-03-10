@@ -1,5 +1,5 @@
 # iccetw-chujo
-## IV.B On-demand streaming
+## I. Demonstration of on-demand streaming
 ・Considering the rendering processing time per frame, we defined playing frame rate. By using frame-skip, point cloud streaming play at the same speed as capturing 30 fps.  
 
 ・Initial buffer size = all download frames - download frames during playing
@@ -15,7 +15,7 @@ Table1　Setting parameters and demo video links
 
 [demo comparison](https://waseda.box.com/s/p6n9tkek7unc1n8oreqxb2fkt35wyekr)
 
-## IV.C Live streaming　
+## II.  Demonstration of live streaming　
 ・Considering the processing time from capturing to creating ply data on the streaming server, we defined playing frame rate.
 
 ・Initial buffer size sets 5 frames.
