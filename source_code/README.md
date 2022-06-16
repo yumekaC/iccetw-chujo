@@ -109,7 +109,7 @@ In new Unity scene, create Resources folder in Assets folder and create new Mate
 
 Change to Shader: Point Cloud/Point in Inspector panel of MyDefault.mat.
 
-Create Scripts folder in Assets folder. In Assets folder, create new two scripts named Live/Ondemand(.cs) and MyClass(.cs), and then replace code with the github code [Live.cs](https://github.com/yumekaC/iccetw-chujo/Live.cs)/[Ondemand.cs](https://github.com/yumekaC/iccetw-chujo/Ondemand.cs) and [MyClass.cs](https://github.com/yumekaC/iccetw-chujo/MyClass.cs). In Live.cs/Ondemand.cs, change from XXXX to the copied IP address (*).
+Create Scripts folder in Assets folder. In Assets folder, create new two scripts named Live/Ondemand(.cs) and MyClass(.cs), and then replace code with the github code [Live.cs](https://github.com/yumekaC/iccetw-chujo/blob/main/source_code/Client/Live.cs)/[Ondemand.cs](https://github.com/yumekaC/iccetw-chujo/Ondemand.cs) and [MyClass.cs](https://github.com/yumekaC/iccetw-chujo/MyClass.cs). In Live.cs/Ondemand.cs, change from XXXX to the copied IP address (*).
 
 Create new GameObject in Hierarchy and add code of Live.cs/Ondemand.cs by pushing Add Component button in Inspector panel.
 
