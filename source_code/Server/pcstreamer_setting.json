@@ -1,0 +1,17 @@
+{
+  "sequence name": "live",
+  "number of frames": "10",
+  "offset frames": "30",
+  "plane segmentation": "",
+  "output dir": "ply_dataset",
+  "output ply dir": "ply",
+  "o3d config file": "o3d_config.json",
+  "rs config file": "rs_config.json",
+  "plane flag": "True",
+  "influxdb ip": "",
+  "influxdb port": "",
+  "influxdb user": "",
+  "influxdb pass": "",
+  "influxdb database": "",
+  "influxdb mem name": ""
+}
